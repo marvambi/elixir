@@ -2,8 +2,8 @@ use Mix.Config
 
 # Configure your database
 config :live_view_studio, LiveViewStudio.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "marvambi",
+  password: "marvambi@1",
   database: "live_view_studio_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,

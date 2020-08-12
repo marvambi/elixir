@@ -1,0 +1,27 @@
+2020-08-12 14:29:20.870 WAT [12788] LOG:  starting PostgreSQL 12.3 on x86_64-apple-darwin19.4.0, compiled by Apple clang version 11.0.3 (clang-1103.0.32.59), 64-bit
+2020-08-12 14:29:20.876 WAT [12788] LOG:  listening on IPv6 address "::1", port 5432
+2020-08-12 14:29:20.876 WAT [12788] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-08-12 14:29:20.877 WAT [12788] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-08-12 14:29:20.889 WAT [12789] LOG:  database system was shut down at 2020-08-12 14:27:18 WAT
+2020-08-12 14:29:20.893 WAT [12788] LOG:  database system is ready to accept connections
+2020-08-12 14:29:38.649 WAT [13028] FATAL:  role "postgres" does not exist
+2020-08-12 14:30:30.649 WAT [13236] FATAL:  database "postgrs" does not exist
+2020-08-12 14:40:28.338 WAT [14229] FATAL:  database "mac" does not exist
+2020-08-12 14:40:28.427 WAT [14231] FATAL:  database "mac" does not exist
+2020-08-12 14:41:55.582 WAT [14731] FATAL:  role "postgres" does not exist
+2020-08-12 14:45:38.497 WAT [15001] ERROR:  permission denied to create database
+2020-08-12 14:45:38.497 WAT [15001] STATEMENT:  CREATE DATABASE "live_view_studio_dev" ENCODING 'UTF8'
+2020-08-12 14:49:16.471 WAT [15504] FATAL:  database "marvambi" does not exist
+2020-08-12 14:54:09.826 WAT [12788] LOG:  received fast shutdown request
+2020-08-12 14:54:09.827 WAT [12788] LOG:  aborting any active transactions
+2020-08-12 14:54:09.832 WAT [12788] LOG:  background worker "logical replication launcher" (PID 12795) exited with exit code 1
+2020-08-12 14:54:09.833 WAT [12790] LOG:  shutting down
+2020-08-12 14:54:09.848 WAT [12788] LOG:  database system is shut down
+2020-08-12 14:54:29.483 WAT [15883] LOG:  starting PostgreSQL 12.3 on x86_64-apple-darwin19.4.0, compiled by Apple clang version 11.0.3 (clang-1103.0.32.59), 64-bit
+2020-08-12 14:54:29.489 WAT [15883] LOG:  listening on IPv6 address "::1", port 5432
+2020-08-12 14:54:29.489 WAT [15883] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-08-12 14:54:29.490 WAT [15883] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-08-12 14:54:29.506 WAT [15884] LOG:  database system was shut down at 2020-08-12 14:54:09 WAT
+2020-08-12 14:54:29.521 WAT [15883] LOG:  database system is ready to accept connections
+2020-08-12 14:55:37.134 WAT [16063] ERROR:  permission denied to create database
+2020-08-12 14:55:37.134 WAT [16063] STATEMENT:  CREATE DATABASE "live_view_studio_dev" ENCODING 'UTF8'

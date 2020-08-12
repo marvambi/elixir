@@ -86,3 +86,7 @@
 .alert:empty {
   display: none;
 }
+
+.hide-it {
+  display: none;
+}
