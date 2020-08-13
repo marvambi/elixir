@@ -25,3 +25,18 @@
 2020-08-12 14:54:29.521 WAT [15883] LOG:  database system is ready to accept connections
 2020-08-12 14:55:37.134 WAT [16063] ERROR:  permission denied to create database
 2020-08-12 14:55:37.134 WAT [16063] STATEMENT:  CREATE DATABASE "live_view_studio_dev" ENCODING 'UTF8'
+2020-08-12 17:08:33.398 WAT [15883] LOG:  received smart shutdown request
+2020-08-12 17:08:33.400 WAT [15883] LOG:  background worker "logical replication launcher" (PID 15890) exited with exit code 1
+2020-08-12 17:08:33.400 WAT [15885] LOG:  shutting down
+2020-08-12 17:08:33.409 WAT [15883] LOG:  database system is shut down
+2020-08-12 20:43:06.309 WAT [1506] LOG:  starting PostgreSQL 12.3 on x86_64-apple-darwin19.4.0, compiled by Apple clang version 11.0.3 (clang-1103.0.32.59), 64-bit
+2020-08-12 20:43:06.312 WAT [1506] LOG:  listening on IPv6 address "::1", port 5432
+2020-08-12 20:43:06.312 WAT [1506] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-08-12 20:43:06.312 WAT [1506] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-08-12 20:43:06.329 WAT [1507] LOG:  database system was shut down at 2020-08-12 17:08:33 WAT
+2020-08-12 20:43:06.335 WAT [1506] LOG:  database system is ready to accept connections
+2020-08-12 21:26:55.640 WAT [1506] LOG:  received fast shutdown request
+2020-08-12 21:26:55.642 WAT [1506] LOG:  aborting any active transactions
+2020-08-12 21:26:55.644 WAT [1506] LOG:  background worker "logical replication launcher" (PID 1513) exited with exit code 1
+2020-08-12 21:26:55.644 WAT [1508] LOG:  shutting down
+2020-08-12 21:26:55.655 WAT [1506] LOG:  database system is shut down
